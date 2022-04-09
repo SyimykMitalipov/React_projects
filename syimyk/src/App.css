@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+.Syimyk {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    background: rebeccapurple;
+    border: none;
+
+}
+header {
+    width: 100vw;
+    height: 60px;
+    background: blue;
+    display: flex;
+    justify-content: space-around;
+    gap: 30%;
+
+}
+header li {
+    display: flex;
+    padding-left: 20px;
+    float: left;
+    list-style: none;
+
+}
+h1 {
+    color: red;
+    padding-bottom: 20px;
+
+}
+.geektech {
+    color: red;
+}
+.contentcenter {
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.block_1 {
+    width: 400px;
+    height: 300px;
+    border: 1px solid red;
+    text-align: center;
+    padding-top: 30px;
+}

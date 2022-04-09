@@ -1,0 +1,14 @@
+.container__item {
+
+}
+.container__item li {
+    font-size: 20px;
+    /*list-style: none;*/
+    font-size: 20px;
+    /*color: green;*/
+}
+
+.ol__list {
+    margin-left: 50px;
+
+}
