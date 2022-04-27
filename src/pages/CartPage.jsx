@@ -9,7 +9,7 @@ const Cartpage = () => {
   const dispatch = useDispatch()
   const deleteFromCart = (product) => {
     dispatch({ type: 'DELETE_FROM_CART', payload: product });
-    console.log(product, 'delete productttttt')
+    
     
   };
   useEffect(() => {

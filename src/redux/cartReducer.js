@@ -5,7 +5,7 @@ const initialState = {
 
 export const cartReducer = (state = initialState, action) => {
     console.log(action.payload , 'payloaddd')
-    console.log({...state});
+    console.log()
     switch(action.type){
         case 'ADD_TO_CART' : {
             return{
@@ -16,10 +16,11 @@ export const cartReducer = (state = initialState, action) => {
         }
         case 'DELETE_FROM_CART' : {
             return{
-            ...state,cartItems : state?.cartItems.filter((obj) => obj.id !== parseInt(action.id))
-            
-            
-            
+            ...state,cartItems : state?.cartItems?.filter((obj) =>{
+                return obj.id !== action?.payload?.id
+                
+            })
+ 
         }
         
         }
